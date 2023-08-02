@@ -27,7 +27,7 @@ public class TimeoffController {
         iTimeoffService.DeleteTimeOff(id);
     }
 
-    @GetMapping("/DisplayTeam/{idT}")
+    @GetMapping("/DisplayTime/{idT}")
     public void gettimeoffbyid(@PathVariable("idT")int id){
         iTimeoffService.displayTimeId(id);
     }
